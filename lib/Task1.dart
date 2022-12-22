@@ -13,7 +13,8 @@ class Task_1 extends StatelessWidget{
           backgroundColor: Colors.deepPurpleAccent[100],
         ),
         body: Center(
-          child:Container(height: 200,width: 300,
+          child:Container(height: MediaQuery.of(context).size.height * 0.3
+            ,width: 300,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(35.0),
               border: Border.all( color: Colors.white , width: 1),
